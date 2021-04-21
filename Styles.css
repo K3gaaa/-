@@ -1,16 +1,44 @@
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
 
 .header {
+  padding: 40px 0 40px 0;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
+  position: relative;
   padding: 40px 0 40px 0;
+  padding-left: 44px;
+  font: bold 24px/32px pt_serif, arial, helvetica, sans-serif;
+
+  //width: 190px;
+  //height: 35px;
+  //background: url('img/logo.svg')
+}
+
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+}
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+  border-radius: 50%;
+}
+
+.logo__circle_color_blue {
+  background: #C8DBFB;
+  left: 8px;
+  top: 56%;
+  border-radius: 50%;
+  opacity: .7;
 }
 
 .menu {
@@ -20,7 +48,6 @@
 
 .menu__item {
   padding: 0 13px;
-  border: dashed 1px red;
 }
 .menu__item:last-child {
   padding-right:0;
