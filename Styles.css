@@ -99,7 +99,7 @@
 }
 
 .main__button {
-  display: line-block;
+ display: line-block;
  font: 14px/16px Roboto, arial, helvetica, sans-serif;
  padding: 18px 21px;
  background: #0056EC;
@@ -114,4 +114,29 @@
 }
 .main__title-text_highlight {
   background: linear-gradient(180deg, #fff 15%, #ecf3ff 15%);
+}
+
+@media (max-width:768px) {
+  .menu {
+    display: none;
+  }
+.header {
+  margin-bottom: 32px;
+  }
+.main {
+  text-align: center;
+  padding:74% 0 0;
+  background-size: 74%;
+  background-position: top center;
+}
+.main__title {
+  margin-bottom: 32px;
+  font: bold 30px/40px pt_serif, arial, helvetica, sans-serif;
+}
+.main__opisanie {
+  margin-bottom: 25px;
+  font: 500 16px/20px Roboto, arial, helvetica, sans-serif;
+}
+.main__button {
+  font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
 }
