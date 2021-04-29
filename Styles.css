@@ -116,7 +116,99 @@
   background: linear-gradient(180deg, #fff 15%, #ecf3ff 15%);
 }
 
+.main__button:hover {
+    animation: bounce 1s;
+}
+
+.hamburger-menu {
+    display: none;
+}
+#menu-mobile__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+.menu-mobile__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 32px;
+    width: 25px;
+    height: 17px;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu-mobile__btn > span,
+.menu-mobile__btn > span::before,
+.menu-mobile__btn > span::after {
+    display: inline-block;
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: #0056EC;
+    transition-duration: 0.25s;
+}
+.menu-mobile__btn > span::before {
+    content: '';
+    top: -8px;
+}
+.menu-mobile__btn > span::after {
+    content: '';
+    top: 8px;
+}
+.menu-mobile__box {
+    display: flex;
+    position: fixed;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0;
+    padding: 177px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
+    transition-duration: 0.25s;
+}
+.menu-mobile__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font: 600 30px/34px Roboto, arial, helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.menu-mobile__item:hover {
+    background-color: #CFD8DC;
+}
+#menu-mobile__toggle:checked ~ .menu-mobile__btn > span {
+    transform: rotate(45deg);
+}
+#menu-mobile__toggle:checked ~ .menu-mobile__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#menu-mobile__toggle:checked ~ .menu-mobile__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#menu-mobile__toggle:checked ~ .menu-mobile__box {
+    visibility: visible;
+    left: 0;
+    z-index: 1;
+}
+
+.hamburger-menu {
+        display: block;
+    }
+
+
 @media (max-width:768px) {
+  .logo__text {
+   visibility: hidden;
+}
   .menu {
     display: none;
   }
@@ -139,4 +231,5 @@
 }
 .main__button {
   font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
+}
 }
