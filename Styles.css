@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 130px;
+  padding: 0 0 0 0;
 }
 
 .logo {
@@ -221,7 +222,7 @@
   }
 
   .logo {
-    padding: 398px 0 40px 0;
+    padding: 40px 0 40px 0;
   }
   .logo__circle_color_dark-blue {
     left: 0px;
@@ -233,7 +234,7 @@
 
 
 .header {
-  margin-bottom: -352px;
+  //margin-bottom: -352px;
   }
 .main {
   text-align: center;
