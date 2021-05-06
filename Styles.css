@@ -78,6 +78,7 @@
 
 .menu__item:hover {
  opacity: 0.5;
+ 
 }
 
 .menu__item:hover:after, .menu__item_active:after {
@@ -112,12 +113,32 @@
  color: #FFF;
  text-decoration: none;
  border-radius: 4px;
- transition: opacity .5s;
-}
+ transition: opacity .8s;
+ cursor: pointer;
+  }
+
+
 
 .main__button:hover {
-  opacity: .5;
+  animation: ani 1.5s infinite;
 }
+
+/*анимация*/
+
+@keyframes ani {
+
+  0% {
+      -webkit-box-shadow: 0 0 0 0 #e7d8eb;
+    }
+    50% {
+        -webkit-box-shadow: 0 0 0 10px #e7d8eb;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 #e7d8eb;
+    }
+
+}
+/**анимация*/
 .main__title-text_highlight {
   background: linear-gradient(180deg, #fff 15%, #ecf3ff 15%);
 }
@@ -211,6 +232,7 @@
   visibility: visible;
   left: 0;
 }
+
 
 /*368 мобилка*/
 @media (max-width:768px) {
