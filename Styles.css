@@ -23,7 +23,7 @@
 }
 .logo__text {
   font: bold 24px/32px 'ptserif', arial, helvetica, sans-serif;
-  //width: 146px;
+
 }
 
 .logo__circle {
@@ -87,7 +87,7 @@
 
 
 .main {
- //padding-top: 100px;
+
  padding:0 65% 500px 0;
  background:top right no-repeat url(img/Frame.svg);
  }
@@ -255,9 +255,7 @@
 }
 
 
-.header {
-  //margin-bottom: -352px;
-  }
+
 .main {
   text-align: center;
   padding:74% 0 0;
@@ -304,7 +302,7 @@
 }
 
 .main {
- //padding-top: 100px;
+
  padding:0 54% 500px 0;
  background:top right/55% no-repeat url(img/Frame.svg);
  }
@@ -355,7 +353,7 @@
     height: 2px;
 }
   .main {
-  //padding-top: 100px;
+
   padding:0 54% 500px 0;
   background:top right/55% no-repeat url(img/Frame.svg);
   }
@@ -407,7 +405,7 @@
     height: 2px;
 }
   .main {
-  //padding-top: 100px;
+
   padding:0 45% 500px 0;
   background:top right/45% no-repeat url(img/Frame.svg);
   }
