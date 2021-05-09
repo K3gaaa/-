@@ -31,7 +31,7 @@
   height: 28px;
 }
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 50%;
   left: 0;
   top: 50%;
@@ -104,8 +104,8 @@
  display: line-block;
  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
  padding: 18px 21px;
- background: #0056EC;
- color: #FFF;
+ background: #0056ec;
+ color: #fff;
  text-decoration: none;
  border-radius: 4px;
  transition: opacity .8s;
@@ -167,7 +167,7 @@
   position: absolute;
   width: 25px;
   height: 3px;
-  background-color: #0056EC;
+  background-color: #0056ec;
   transition-duration: .25s;
 }
 .menu-mobile__btn > span::before {
