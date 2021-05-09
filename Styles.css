@@ -22,7 +22,7 @@
 
 }
 .logo__text {
-  font: bold 24px/32px 'ptserif';
+  font: bold 24px/32px 'ptserif', arial, helvetica, sans-serif;
   //width: 146px;
 }
 
@@ -78,7 +78,7 @@
 
 .menu__item:hover {
  opacity: 0.5;
- 
+
 }
 
 .menu__item:hover:after, .menu__item_active:after {
@@ -100,7 +100,7 @@
 
 .main__opisanie {
  margin: -6 0 60px 0;
- font: 22px/26px roboto, arial, helvetica, sans-serif;
+ font: 22px/26px 'roboto', arial, helvetica, sans-serif;
  padding-bottom: 38px;
  padding-right: 11%;
 }
@@ -207,7 +207,7 @@
   display: block;
   padding: 12px 24px;
   color: #000;
-  font-family: Roboto, arial, helvetica, sans-serif;
+  font-family: 'Roboto', arial, helvetica, sans-serif;
   font-size: 30px;
   font-weight: 500;
   text-decoration: none;
@@ -265,18 +265,18 @@
   background-position: top center;
 }
 .main__title {
-  font: 700 30px/40px ptserif, arial, helvetica, sans-serif;
+  font: 700 30px/40px 'ptserif', arial, helvetica, sans-serif;
   padding: 73px 0 0 0;
   margin: -48px -5px 36px 0;
 }
 .main__opisanie {
-  font: 500 16px/18px Roboto, arial, helvetica, sans-serif;
+  font: 500 16px/18px 'Roboto', arial, helvetica, sans-serif;
   padding-right: 0%;
   padding: 0 12%;
   margin: -3px 0 40px 4px;
 }
 .main__button {
-  font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
+  font: 500 14px/17px 'Roboto', arial, helvetica, sans-serif;
   padding: 14px 21px;
 }
 
